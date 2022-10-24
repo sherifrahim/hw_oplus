@@ -1,2 +1,4 @@
 allow kernel vendor_file:file r_file_perms;
 allow kernel vendor_proc_oplus_boot:file r_file_perms;
+
+allow kernel kernel:capability kill;
