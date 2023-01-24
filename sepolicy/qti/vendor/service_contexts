@@ -2,3 +2,5 @@ authentication_service          u:object_r:oem_service:s0
 oplusoiface                     u:object_r:oem_service:s0
 OplusResourceManagerService     u:object_r:oem_service:s0
 ParamService                    u:object_r:oem_service:s0
+# HoraeService
+horae                                       u:object_r:oem_service:s0

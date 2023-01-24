@@ -4,6 +4,7 @@ allow platform_app oem_service:service_manager find;
 
 allow platform_app vendor_camera_data_file:dir getattr;
 
+hal_client_domain(platform_app, vendor_hal_dms)
 allow platform_app vendor_sysfs_kgsl:file r_file_perms;
 
 allow platform_app vendor_xdsp_device:chr_file r_file_perms;
